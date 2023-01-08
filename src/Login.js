@@ -3,6 +3,7 @@ import { auth, provider } from './firebase';
 import { toastInfo } from './shared/toastInfo';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import GoogleLogo from './images/Google G Logo.png';
+import BobbleAi from './images/boobleAi.png';
 import './Login.css';
 
 function Login() {
@@ -26,11 +27,11 @@ function Login() {
 
             <div className="login__container">
             <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/150px-WhatsApp.svg.png"
-                alt="WhatsApp Logo" 
+                src={BobbleAi}
+                alt="Bobble Logo" 
             />
             <div className="login__text">
-                <h1>Sign in to WhatsApp</h1>
+                <h1>Sign in to Bobble Ai Chat App</h1>
             </div>
             
             <div className="login__withGoogle" onClick={signInGoogle}>
