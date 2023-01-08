@@ -1,12 +1,8 @@
-## Table of contents
-* [General info](#general-info)
-* [Features](#features)
-* [Technologies](#technologies)
-* [Steps on how to clone](#clone)
-* [Steps on how to setup hosting](#hosting)
+# Live Link Of the Site :- https://jade-meringue-49ad4a.netlify.app/
+
 
 ## General info
-This a WhatsApp Web clone that is still a work in progress. Users can only create public rooms.
+This a Web Chat Application made for Bobble Ai Hackathon - NIT Jamshedpur
 
 ## Features
 * Add/Delete Room (only admin or room owner can delete the room)
@@ -28,15 +24,14 @@ Project is created with:
 
 ## Steps on how to clone
 #### 1: Clone this repo using this command 
-`git clone https://github.com/muga-mark/WhatsApp-Clone-React.git`
+`git clone https://github.com/adarsh291201/BobbleAi-Hackathon`
 
-#### 2: Enter 
-`cd WhatsApp-Clone-React`
+#### 2: Enter into the the working root directory
 
 #### 3: Next
 `npm install`
 
-#### 4: Goto `src/components` & Find file named `firebase2.js` => Rename the file to `firebase.js` and input your config data.
+#### 4: Goto the file to `firebase.js` and input your config data.
 
 #### 5: Now, Goto `src` directory again and find file named `.firebasesrc`
 Replace the line `"default": "your_project__name"` & save.
